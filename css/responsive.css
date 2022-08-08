@@ -1,0 +1,100 @@
+@media (max-width: 1200px)  {
+    /* syart navbar */
+    .nav-menu .nav-link {
+        font-size: 16px !important;
+    }
+
+    .logo {
+        width: 170px;
+    }
+    /* end navbar */
+}
+
+@media (max-width: 990px) {
+    /* start navbar */
+    .bg-small {
+        background-color: var(--bg-white);
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item{
+        margin: auto;
+    }
+    /* end navbar */
+
+    /* start landing */
+    .content-landing {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .landing-title {
+        font-size: 34px;
+        font-weight: 700;
+    }
+    
+    .landing-p {
+        font-size: 18px;
+    } 
+    /* end landing */
+
+    /* srart trial */
+    .trial-title {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    /* end trial */
+}
+
+@media (max-width: 760px) {
+    /* start landing */
+    .landing-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .landing-p {
+        font-size: 14px;
+    }    
+    /* end landing */
+}
+
+
+@media (max-width: 360px) {
+    /* start navbar */
+    .logo {
+        width: 120px;
+    }
+    /* end navbar */
+    /* start landing */
+    .landing-title {
+        font-size: 22px;
+    }
+
+    .landing-p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    /* end landing */
+    /* start clints */
+    .clints-title {
+        font-size: 17px;
+    }
+
+    .container-img img {
+        width: 100px;
+    }
+    /* end clints */
+
+    /* start showcase */
+    .showcase-box img {
+        padding: 30px 15px;
+    }
+    /* end showcase */
+}
